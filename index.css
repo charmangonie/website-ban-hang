@@ -1,0 +1,138 @@
+
+.container {
+    display: flex;
+    
+}
+.container-store {
+    min-width: 70%;
+}
+.store-title{
+    display:flex;
+    justify-content: center;
+}
+.store-title p{
+    text-align: center;
+    background-color: deeppink;
+    line-height: 50px;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px purple;
+    font-size: 25px;
+}
+#allproduct{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-product{
+    box-shadow: 3px 4px 10px #d09bda;
+    position: relative;
+    width: 22%;
+    height: 400px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.product-content {
+    height: 51%;
+    overflow: auto;
+    background: rgb(236, 147, 231);
+}
+.product-price-like {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.like-title{
+    text-align: center;
+    background-color: deeppink;
+    line-height: 50px;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px purple;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.product-like {
+    align-self: center;
+    font-size: 33px;
+    margin-right: 8px;
+    color: deeppink;
+}
+.product-price{
+    display:flex;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px purple;
+}
+.product-footer{
+    display: flex;
+    padding: 10px;
+}
+
+.product-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    height: 19%;
+    color: white;
+    text-shadow: 1px 1px 2px purple;
+   }
+.container-like{
+    min-width: 30%;
+}
+.like-title {
+    text-align: center;
+    background-color: deeppink;
+    line-height: 50px;
+    width: fit-content;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 2px purple;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+#favorite-show{
+    margin-right: 10px;
+}
+#favorite-show p{
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px purple;
+    color: #ec93e7;
+    text-indent: 20px;
+    font-size: 26px;
+    padding: 5px;
+    text-shadow: -1px 0px 0px purple;
+}
+.product-sold {
+    color: white;
+    text-shadow: 1px 1px 2px purple;
+    text-align: end;
+    margin-right: 10px;
+}
+.product-rate {
+    display: flex;
+    margin-right: 11px;
+    align-items: center;
+    color: gold;
+    text-shadow: 1px 0px 1px black;
+}
